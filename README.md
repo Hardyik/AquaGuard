@@ -57,7 +57,7 @@ An interactive web app built with **Streamlit** and **Machine Learning** (Random
     streamlit run app.py
 
 ## Porject Structure
-    ```bash
+    ```
     AquaGuard/
     ├── app.py                    # Main Streamlit Application
     ├── train_model.py            # Model Training Script
@@ -69,7 +69,7 @@ An interactive web app built with **Streamlit** and **Machine Learning** (Random
     └── report.pdf                # Project Documentation
 
 ## Dataset
-Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability" target="_blank">Water Potability Dataset</a> from Kaggle.
+Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability">Water Potability Dataset</a> from Kaggle.
 
 ## 🔮 Future Scope
 - Integration of CNN for direct image-based analysis
@@ -78,4 +78,4 @@ Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability" ta
 - Real-time alerts via SMS/Email
 - Deployment on cloud (AWS/Heroku)
 
-<a href="https://www.example.com" target="_blank">Open in New Tab</a>
+
