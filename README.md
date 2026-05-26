@@ -68,4 +68,11 @@ AquaGuard/
 └── report.pdf                # Project Documentation
 
 ## Dataset
-Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability">Water Potability Dataset</a> from Kaggle.
+Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability" target="blank">Water Potability Dataset</a> from Kaggle.
+
+## 🔮 Future Scope
+- Integration of CNN for direct image-based analysis
+- Mobile Application (Flutter)
+- IoT sensor integration
+- Real-time alerts via SMS/Email
+- Deployment on cloud (AWS/Heroku)
