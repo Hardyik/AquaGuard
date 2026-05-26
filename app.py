@@ -10,18 +10,18 @@ st.title("🌊 AquaGuard - AI Water Quality Monitoring")
 st.markdown("**SDG 6: Clean Water and Sanitation**")
 
 # Load model
-model = joblib.load('C:/Users/Hardik/OneDrive/Documents/Projects/AquaGuard/water_model.pkl')
+model = joblib.load('C:/Users/Hardik/Documents/Projects/AquaGuard/water_model.pkl')
 
 # Sidebar
 st.sidebar.header("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Predict with Parameters", "Image Analysis (Demo)", "Dashboard"])
 
 if page == "Home":
-    st.image("https://source.unsplash.com/800x400/?water", use_column_width=True)
-    st.write("""
+   st.write("""
     ### Welcome to AquaGuard
     An AI solution to detect unsafe drinking water and prevent waterborne diseases.
-    """)
+    """) 
+   st.image("https://images.unsplash.com/photo-1527066236128-2ff79f7b9705?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="Clean Water")
 
 elif page == "Predict with Parameters":
     st.header("🔬 Water Quality Prediction using Parameters")
