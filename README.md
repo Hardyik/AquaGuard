@@ -43,3 +43,29 @@ An interactive web app built with **Streamlit** and **Machine Learning** (Random
    ```bash
    git clone <your-repo-link>
    cd AquaGuard
+
+2. Install requirements
+    ```bash
+   pip install -r requirements.txt
+
+3. Train model
+    ```bash
+    python train_model.py
+
+4. Run application
+    ```bash
+    streamlit run app.py
+
+## Porject Structure
+AquaGuard/
+├── app.py                    # Main Streamlit Application
+├── train_model.py            # Model Training Script
+├── water_model.pkl           # Trained Model
+├── water_potability.csv      # Dataset
+├── requirements.txt
+├── README.md
+├── screenshots/              # Screenshots folder
+└── report.pdf                # Project Documentation
+
+## Dataset
+Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability">Water Potability Dataset</a> from Kaggle.
