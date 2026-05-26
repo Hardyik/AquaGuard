@@ -57,7 +57,6 @@ An interactive web app built with **Streamlit** and **Machine Learning** (Random
     streamlit run app.py
 
 ## Porject Structure
-    ```
     AquaGuard/
     ├── app.py                    # Main Streamlit Application
     ├── train_model.py            # Model Training Script
