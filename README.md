@@ -57,15 +57,16 @@ An interactive web app built with **Streamlit** and **Machine Learning** (Random
     streamlit run app.py
 
 ## Porject Structure
-AquaGuard/
-├── app.py                    # Main Streamlit Application
-├── train_model.py            # Model Training Script
-├── water_model.pkl           # Trained Model
-├── water_potability.csv      # Dataset
-├── requirements.txt
-├── README.md
-├── screenshots/              # Screenshots folder
-└── report.pdf                # Project Documentation
+    ```bash
+    AquaGuard/
+    ├── app.py                    # Main Streamlit Application
+    ├── train_model.py            # Model Training Script
+    ├── water_model.pkl           # Trained Model
+    ├── water_potability.csv      # Dataset
+    ├── requirements.txt
+    ├── README.md
+    ├── screenshots/              # Screenshots folder
+    └── report.pdf                # Project Documentation
 
 ## Dataset
 Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability" target="_blank">Water Potability Dataset</a> from Kaggle.
@@ -76,3 +77,5 @@ Used <a href="https://www.kaggle.com/datasets/adityakadiwal/water-potability" ta
 - IoT sensor integration
 - Real-time alerts via SMS/Email
 - Deployment on cloud (AWS/Heroku)
+
+<a href="https://www.example.com" target="_blank">Open in New Tab</a>
