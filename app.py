@@ -10,7 +10,7 @@ st.title("🌊 AquaGuard - AI Water Quality Monitoring")
 st.markdown("**SDG 6: Clean Water and Sanitation**")
 
 # Load model
-model = joblib.load('C:/Users/Hardik/Documents/Projects/AquaGuard/water_model.pkl')
+model = joblib.load('water_model.pkl')
 
 # Sidebar
 st.sidebar.header("Navigation")

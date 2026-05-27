@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import joblib
 
 # Load dataset
-df = pd.read_csv('C:/Users/Hardik/Documents/Projects/AquaGuard/water_potability.csv')
+df = pd.read_csv('water_potability.csv')
 
 # Fill missing values
 df = df.fillna(df.mean())
